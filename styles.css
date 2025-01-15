@@ -1,0 +1,132 @@
+
+*{
+    margin: 5x;
+    padding: 0px;
+}
+/*.search{
+    display: flex;
+    align-items: right;
+}*/
+.search {
+    display: inline-block;
+    position: relative;
+    left: 1045px;
+    bottom: 85px;
+    scale: 1.5;
+}
+h1{
+    color: white;
+}
+body{
+    background-color: black;
+}
+.logo{
+    height: 100px;
+    width: 15%;
+    transform: rotate(-20deg);
+}
+div{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    bottom: 25px;
+    scale: 2.5;
+}
+hr{
+    color: white;
+}
+.bottom{
+    color: white;
+    
+}
+.seperator{
+    display: flex;
+    position: relative;
+    transform: rotate(90deg);
+    color: white;
+    width: 23%;
+    justify-content: center;
+    top: 15px;
+}
+p{
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    left: 20px;
+    top: 90x;
+}
+.p2{
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 66px;
+    bottom: 100px;
+    font-size: xx-large;
+    text-align: right;
+}
+.perform{
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    bottom: 190px;
+    height: 350px;
+    width: 40%;
+    border: 2px solid white;
+}
+.feedback{
+    background-color: white;
+    border: solid 3px grey;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    left: 1200px;
+    bottom: 20px;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+.table{
+    position: relative;
+    right: 360px;
+    bottom: 440px;
+    border-collapse: collapse;
+    width: 35em;
+    background-color: darkblue;
+    border-radius: 5px;
+    margin: 25px auto;
+    color: white;
+}
+thead tr {
+    border-bottom: 2px solid white;
+}
+tfoot tr {
+    border-top: 2px solid white;
+}
+table thead tr td {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
+table tbody tr td {
+    padding: 8px;
+}
+table tbody span {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+table thead tr td:nth-last-child(1){
+    text-align: right;
+}
+table tbody tr td:nth-last-child(1){
+    text-align: right;
+}
+table tfoot tr td:nth-last-child(1){
+    text-align: right;
+}
+#aw {
+    text-align: center;
+}

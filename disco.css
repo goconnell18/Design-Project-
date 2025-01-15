@@ -1,0 +1,87 @@
+*{
+    margin: 5x;
+    padding: 0px;
+}
+header{
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    border-bottom: 4px solid grey;
+    z-index: 1;
+}
+body{
+    background-color: black;
+}
+.cover{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 200px;
+    padding-top: 5px;
+}
+.feedback{
+    background-color: white;
+    border: solid 3px grey;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    left: 1200px;
+    bottom: 20px;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    pointer-events: none;
+}
+.text{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+.container:hover .overlay {
+    opacity: 0.7;
+ }
+.pf1{
+    position: fixed;
+    width: 40%;
+    height: 450px;
+    top: 60px;
+    right: 830px;
+}
+.logo{
+    display: inline-block;
+    position: fixed;
+    bottom: 590px;
+    width: 5%;
+    z-index: 2;
+}

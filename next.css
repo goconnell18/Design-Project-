@@ -1,0 +1,73 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+header{
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 15px;
+    border-bottom: 4px solid grey;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.tour{
+    width: 23%;
+    display: inline-block;
+    position: relative;
+    bottom: 550px;
+    left: 510px;
+    border: white solid 5px;
+}
+.new{
+    text-align: right;
+    position: relative;
+    bottom: 1119px;
+}
+.p2{
+    text-align: right;
+    font-size: large;
+    position: relative;
+    bottom: 1118px;
+}
+.listen{
+    text-align: right;
+    font-size: xx-large;
+    position: relative;
+    bottom: 1000px;
+    right: 110px;
+}
+hr{
+    color: white;
+    position: relative;
+    bottom: 700px;
+}
+.logo{
+    display: inline-block;
+    position: fixed;
+    bottom: 590px;
+    left: 10px;
+    width: 5%;
+    z-index: 2;
+}
+.feedback{
+    background-color: white;
+    border: solid 3px grey;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    left: 1200px;
+    bottom: 20px;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
